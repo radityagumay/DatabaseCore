@@ -1,11 +1,12 @@
-apply plugin: 'com.android.application'
+// http://stackoverflow.com/a/27536527/5435658
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.tokopedia.core"
+        // applicationId "com.tokopedia.core"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
