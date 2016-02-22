@@ -10,14 +10,14 @@ import com.tokopedia.core.database.table.ProductTable;
 /**
  * Created by raditya.gumay on 22/02/2016.
  */
-public class TokopediaHelper extends SQLiteOpenHelper {
+public class DatabaseHelper extends SQLiteOpenHelper {
 
-    public static final String TAG = TokopediaHelper.class.getSimpleName();
+    public static final String TAG = DatabaseHelper.class.getSimpleName();
 
-    public static final String DATABASE_NAME = "tokopedia.db";
+    public static final String DATABASE_NAME = "tokopedia";
     public static final int VERSION = 1;
 
-    public TokopediaHelper(Context context) {
+    public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, VERSION);
     }
 
